@@ -4,9 +4,19 @@ import Image from 'react-bootstrap/Image'
 import testpaperI from '../../images/icon-paper.svg'
 import CloseIcon from '@mui/icons-material/Close';
 import rulesLogo from '../../images/image-rules.svg'
+import iconpaper from '../../images/icon-paper.svg'
+import iconrock from '../../images/icon-rock.svg'
+import iconscissors from '../../images/icon-scissors.svg'
+import triangle from '../../images/bg-triangle.svg'
+import gameLogo from '../../images/logo.svg'
+
+
+
 
 function Game() {
     const [modalValue,setModalValue]=useState(false)
+    const [score,setScore]=useState(0)
+    const [userChoice,setUserChoice]=useState('')
 
     function HandleClickModal(val){
         setModalValue(val)
@@ -17,7 +27,7 @@ function Game() {
             <div className='gameScore'>
                 <div className='scoreBox'>
                     <div className='gameName'>
-                        <h3>ROCK<br/>PAPER<br/>SCISSORS</h3>
+                        <Image src={gameLogo}/>
                     </div>
                     <div className='score'>
                         <div className='scoreText'><p>score</p></div>
@@ -27,11 +37,20 @@ function Game() {
             </div>
             <div className='gamePlay'>
                 <div className='playBox'>
-
+                    <div className='paper-scissors'>
+                        <div className='paper'><Image id='logoImage' src={iconpaper}/></div>
+                        <div className='scissors'><Image src={iconscissors} id='logoImage'/></div>
+                    </div>
+                    <div className='triangle'>
+                        <div className='triangleImg'><Image id='tri-logo' fluid={true} src={triangle}/></div>
+                    </div>
+                    <div className='rock'>
+                        <div className='rockIcon'><Image id='logoImage' src={iconrock}/></div>
+                    </div>
                 </div>
             </div>
             <div className='gameRule'>
-                <div className='ruleBox'><button onClick={()=>HandleClickModal(true)}>Rules</button></div>
+                <div className='ruleBox'><button id='rulesBtn' onClick={()=>HandleClickModal(true)}>Rules</button></div>
             </div>
         </div>
         <div className={(modalValue==true)?'rulesModalActive':'rulesModal'}>
