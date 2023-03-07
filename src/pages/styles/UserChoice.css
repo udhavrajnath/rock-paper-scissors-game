@@ -1,0 +1,32 @@
+.userChoiceClass{
+    background-color: burlywood;
+    width: 90%;
+    height: 90%;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.userPick{
+background-color: red;
+display: grid;
+grid-template-rows: 15% 85%;
+}
+
+.computerPicking{
+background-color: yellow;
+display: grid;
+grid-template-rows: 15% 85%;
+}
+.pickedLogo{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoadingLogo{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
