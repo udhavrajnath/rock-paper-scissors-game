@@ -31,7 +31,7 @@ function Game() {
                     </div>
                     <div className='score'>
                         <div className='scoreText'><p>score</p></div>
-                        <div className='Number'></div>
+                        <div className='Number'>0</div>
                     </div>
                 </div>
             </div>
