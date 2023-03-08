@@ -101,7 +101,7 @@ function Game() {
         setComputerPicked(true)
         ScoreBoard()
       }, 3000);
-    },[userPicked])
+    },[userPicked==true])
   return (
     <div className='container-fluid'>
         <div className='Game'>
