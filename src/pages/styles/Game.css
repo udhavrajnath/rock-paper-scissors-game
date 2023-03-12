@@ -244,7 +244,7 @@ text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 25px blue;
+    border: solid 25px hsl(230, 89%, 65%);
     z-index: 999;
 
 }
@@ -254,7 +254,7 @@ text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 25px yellow;
+    border: solid 25px hsl(39, 89%, 49%);
     z-index: 999;
 
 }
@@ -269,7 +269,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 25px red;
+    border: solid 25px hsl(349, 71%, 52%);
     z-index: 999;
 }
 

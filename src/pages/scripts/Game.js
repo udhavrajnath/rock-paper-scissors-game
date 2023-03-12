@@ -112,7 +112,7 @@ function Game() {
                     </div>
                     <div className='playAgain-results'>
                         {(computerPicked==true)&&<><div id='resultTxt'>{result}</div>
-                        <div><button id='playAgnBtn' onClick={()=>resetAll_PlayAgain()}>Play Again</button></div></>}
+                        <div>{(score!==0)&&<button id='playAgnBtn' onClick={()=>resetAll_PlayAgain()}>Play Again</button>}</div></>}
                     </div>
                     <div className='score'>
                         <div className='scoreText'><p>score</p></div>
