@@ -64,6 +64,6 @@ If I were to revise this project in the future, I would definitely improve on th
 
 ## Author
 
-- Website - [Udhav Rajnat][(https://udhavrajnath.github.io/rock-paper-scissors-game/)]
+- Website - [Udhav Rajnath][(https://udhavrajnath.github.io/rock-paper-scissors-game/)]
 - Frontend Mentor - [@udhavrajnath]-[(https://www.frontendmentor.io/profile/udhavrajnath)]
 
