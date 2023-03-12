@@ -3,7 +3,7 @@
     height: 60%;
     background-color: white;
     border-radius: 50%;
-    border: solid 27px blue;
+    border: solid 27px  hsl(39, 89%, 49%);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Outfit&family=Overpass:ital,wght@0,400;1,500&display=swap');
+
 .container-fluid{
     display: flex;
     justify-content: center;
@@ -7,7 +9,7 @@
 
 .Game{
     
-    background-color: red;
+    background-color: transparent;
     width: 100%;
     height: 100%;
     display: grid;
@@ -18,27 +20,56 @@
     width: 90%;
 }
 .gameScore{
-    background-color: red;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .scoreBox{
-    background-color: aqua;
+    background-color: transparent;
     width: 50%;
     height: 90%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+#playAgnBtn{
+    height: 100%;
+    width: 40%;
+    font-weight: 400;
+    color:hsl(229, 25%, 31%) ;
+    border-radius: 7px;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    border: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#resultTxt{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+#playAgnBtn:hover{
+    cursor: pointer;
+    color: red;
+}
+.scoreText p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 64%, 46%);
+    letter-spacing: 0.1em;
 }
 .playAgain-results{
-    background-color: grey;
+    background-color: transparent;
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 60% 40%;
 }
 .Number{
    
-    background-color: lightgreen;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,17 +79,25 @@
 
 }
 .score{
-    background-color: lightcoral;
+    background-color: white;
     display: grid;
     grid-template-rows: 20% 80%;
     padding-bottom: 5px;
+    border-radius: 12px;
+}
+.Number p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(229, 25%, 31%);
     
 }
 .scoreText{
-    background-color: red;
+    background-color: transparent;
+    margin-bottom: 0;
 }
 .gameName{
-background-color: lightgoldenrodyellow;
+background-color: transparent;
 display: flex;
 justify-content: left;
 align-items: center;
@@ -68,13 +107,13 @@ text-align: left;
     line-height: 25px;
 }
 .gamePlay{
-    background-color: green;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .playBox{
-    background-color: aqua;
+    background-color: transparent;
     width: 50%;
     height: 100%;
     display: grid;
@@ -83,7 +122,7 @@ text-align: left;
     
 }
 .UserSelecting{
-    background-color: peru;
+    background-color: transparent;
     width: 50%;
     height: 100%; 
     display: flex;
@@ -91,7 +130,7 @@ text-align: left;
     align-items: center;
 }
 .ComputerSelected{
-    background-color: peru;
+    background-color: transparent;
     width: 50%;
     height: 100%; 
     display: flex;
@@ -99,24 +138,28 @@ text-align: left;
     align-items: center;
 }
 .gameRule{
-    background-color: yellow;
+    background-color: transparent;
     display: flex;
     align-items:center;
     justify-content: right;
 }
 .ruleBox{
-    background-color: beige;
+    background-color: transparent;
     width: 15%;
     height: 70%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 #rulesBtn{
-    border: none;
+    border: 1px solid white;
     width: 65%;
     height: 80%;
-    background-color: aquamarine;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
 }
 .rulesModal{
     position: fixed;
@@ -152,14 +195,21 @@ text-align: left;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 
-    background-color: red;
+    background-color: white;
     width: 35%;
     height: 65%;
     display: grid;
     grid-template-rows: 10% 90%;
     padding: 10px 10px 10px 10px;
+    border-radius: 12px;
   }
-
+  .RulesTitle p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:  hsl(229, 25%, 31%);
+  }
+  
   .title{
     display: grid;
     grid-template-columns: 50% 10%;
@@ -172,7 +222,8 @@ text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: transparent;
+    color: hsl(217, 16%, 45%);
   }
   .display{
     padding: 25px 25px 25px 25px;

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Outfit&family=Overpass:ital,wght@0,400;1,500&display=swap');
 .userChoiceClass{
-    background-color: burlywood;
+    background-color: transparent;
     width: 90%;
     height: 90%;
     font-size: 30px;
@@ -8,24 +9,35 @@
 }
 
 .userPick{
-background-color: red;
+background-color: transparent;
 display: grid;
 grid-template-rows: 15% 85%;
+color: white;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 600;
+font-size:35px;
+letter-spacing: 0.1em;
 }
 
 .computerPicking{
-background-color: yellow;
+background-color: transparent;
 display: grid;
 grid-template-rows: 15% 85%;
+color: white;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 600;
+font-size: 35px;
+letter-spacing: 0.1em;
+
 }
 .pickedLogo{
-    background-color: aliceblue;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .LoadingLogo{
-    background-color: beige;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;

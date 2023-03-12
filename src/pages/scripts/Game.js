@@ -111,12 +111,12 @@ function Game() {
                         <Image src={gameLogo}/>
                     </div>
                     <div className='playAgain-results'>
-                        {(computerPicked==true)&&<><div>{result}</div>
-                        <div><button onClick={()=>resetAll_PlayAgain()}>Play Again</button></div></>}
+                        {(computerPicked==true)&&<><div id='resultTxt'>{result}</div>
+                        <div><button id='playAgnBtn' onClick={()=>resetAll_PlayAgain()}>Play Again</button></div></>}
                     </div>
                     <div className='score'>
                         <div className='scoreText'><p>score</p></div>
-                        <div className='Number'>{score}</div>
+                        <div className='Number'><p>{score}</p></div>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ function Game() {
 
             </div>
             <div className='gameRule'>
-                <div className='ruleBox'><button id='rulesBtn' onClick={()=>HandleClickModal(true)}>Rules</button></div>
+                <div className='ruleBox'><button id='rulesBtn' onClick={()=>HandleClickModal(true)}>RULES</button></div>
             </div>
         </div>
         <div className={(modalValue==true)?'rulesModalActive':'rulesModal'}>
