@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/udhavrajnath/rock-paper-scissors-game.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://udhavrajnath.github.io/rock-paper-scissors-game/]
 
 ## My process
 
@@ -64,6 +64,6 @@ If I were to revise this project in the future, I would definitely improve on th
 
 ## Author
 
-- Website - [Udhav Rajnat](https://www.your-site.com)
+- Website - [Udhav Rajnat][(https://udhavrajnath.github.io/rock-paper-scissors-game/)]
 - Frontend Mentor - [@udhavrajnath]-[(https://www.frontendmentor.io/profile/udhavrajnath)]
 
